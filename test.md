@@ -9,4 +9,6 @@
 | __man__ mkdir | ouvre une aide sur l'utilisation de la commande (ici mkdir en bash, New-Item en Powershell)  | __get-help__ new-item  |
 | __history__  | Affiche l'historique des dernières commandes saisies  | __history__  |
 | __alias__ c="clear" | créé un raccourci, ici la commande clear pourra ensuite se taper c   | __New-Alias__ -Name "c" clear  |
-| __cat__ file.txt | Affiche le contenu d'un fichier, ici file.txt  | __get-content__ file.txt  |
+| __cat__ file.txt | Affiche le contenu d'un fichier, ici file.txt  | __get-content__ file.txt  |  
+
+Pour trouver les équivalences BASH <=> PS j'ai surtout utilisé la commande Get-Help, je me suis aussi aidé du net... :-D
